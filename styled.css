@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 100px 0;
+    width: 1352px;    
+}
+
+
+.nav-itens {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    
+}
+
+.social-medias {
+    display: flex;
+    justify-content: space-around;
+    width: 80px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.perfil {
+    height: 340px;
+    width: 250px;
+    border-radius: 300px;
+}
+
+.section-principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 100px 0;
+    width: 1352px;
+    height: 750px;
+}
+
+.texto-perfil {
+    font-size: 20px;
+}
+
+.sobre-mim {
+    padding: 100px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    width: 1352px;
+    
+}
+
+.info-eng2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto-riotrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid grey;
+}
+
+.dentro-sobre {
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.info-escola, .info-faculdade, .info-Labenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projetos {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 1352px;
+    height: 750px;
+}
+
+
+
+.card-individual {
+    width: 500px;
+    /* height: 700px; */
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.tecnologias, .projetos {
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    gap: 100px;
+    width: 1352px;
+    height: 750px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.colorido {
+    color: lightskyblue;
+}
+
+.imagem-card-um {
+    background: linear-gradient(180deg, lightblue, lightgreen);
+    height: 300px;
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.card-um, .card-dois, .card-tres {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.botao > button > img {
+    height: 20px;
+    width: 20px;
+}
+
+.botao >button {
+    border-radius: 5px;
+    background-color: lightcyan;
+    cursor: pointer;
+    height: 30px;
+    border-color: grey;
+}
+
+.conteudo-card-um, .conteudo-card-dois, .conteudo-card-tres {
+    padding: 10px 0 10px 0;
+}
+
+.imagem-card-dois {
+    background: linear-gradient(180deg, lightgreen, tomato);
+    height: 300px;
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.imagem-card-tres {
+    background: linear-gradient(180deg, cyan, lightblue);
+    height: 300px;
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.cadastro {
+    width: 100vw;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+input {
+    height: 30px;
+}
+
+textarea {
+    width: 300px;
+}
+
+fieldset {
+    border: none;
+}
+
+a > button {
+    border-radius: 5px;
+    background-color: lightcyan;
+    cursor: pointer;
+    height: 30px;
+    border-color: grey;
+}
+
+a > button > img {
+    height: 20px;
+    width: 20px;
+}
+
+.main-novo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-dentro h1 {
+    padding-bottom: 50px;
+}
+
+.container-jogo {
+    background: linear-gradient(180deg, lightblue, lightskyblue);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM sans', sans-serif;
+}
+
+.container-contato {
+    background: linear-gradient(180deg, darkblue, lightblue);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM sans', sans-serif;
+    padding-bottom: 357px;
+    color: white;
+}
+
+.formulario {
+    max-width: 650px;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .formulario input, form textarea {
+    border: 0;
+    outline: 0;
+    padding: 0.8em;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    display: block;
+    width: 300px;
+    margin-top: 16px;
+    font-family: 'DM sans', sans-serif;
+    font-size:16px;
+    color:#424242;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    resize: none;
+  }
+  .formulario input:focus, .formulario textarea:focus {
+     
+    color:#3cafe7; 
+    -moz-box-shadow: 0 0px 2px #3cafe7 !important;
+    -webkit-box-shadow: 0 0px 2px #3cafe7 !important;
+    box-shadow: 0 0px 2px #3cafe7 !important;
+  }
+  .formulario .btn-submit {
+    color: #fff;
+    background: #3cafe7 ;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .formulario .btn-submit:hover {
+   
+    background-color:#424242;
+    -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+    -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+    box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  }
+  .formulario textarea {
+    height: 174px;
+  }
+  .metade {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+  }
+  .right { width:50%;}
+  .left  { margin-right:2%; }
+  @media (max-width: 768px) {
+    
+    .metade { width:100%; float:none; margin-bottom:0; }
+  }
